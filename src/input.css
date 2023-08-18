@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Oswald:wght@200;400&display=swap');
+
+body{
+    font-family: 'Borel', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+@layer{
+    .btn{
+        @apply flex items-center justify-center bg-[#f98f75] text-white py-4 rounded-[2rem] hover:cursor-pointer
+    }
+}

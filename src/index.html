@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- stylesheet tailwindcss link -->
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container bg-[#ffffff] mx-auto py-6 px-2 md:px-8">
+        <!-- header -->
+        <header class="fixed top-0 left-0 z-50 w-full transition-all duration-200">
+            <div id="header" class="flex justify-between items-center flex-col xl:flex-row font-semibold text-[1.3rem] py-[2rem] px-1 md:px-[4rem] gap-6">
+                <div class="imglogo">
+                    <img src="../images/logo.svg" alt="" srcset="">
+                </div>
+                <ul class="flex gap-5">
+                    <li class="hover:text-[#b9babe]">
+                        <a href="#" class="">Pricing</a>
+                    </li>
+                    <li class="hover:text-[#b9babe]">
+                        <a href="#">Product</a>
+                    </li>
+                    <li class="hover:text-[#b9babe]">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="hover:text-[#b9babe]">
+                        <a href="#">Careers</a>
+                    </li>
+                    <li class="hover:text-[#b9babe]">
+                        <a href="#">Community</a>
+                    </li>
+                </ul>
+                <div class="btn w-[14rem]">
+                    <a href="#" class="">Get Started</a>
+                </div>
+            </div>
+        </header>
+        <!-- end of header section -->
+
+        <!-- main body -->
+        <main class="pt-[13rem]">
+            <!-- bring every one section -->
+            <section class="grid grid-cols-1 xl:grid-cols-2 items-center justify-between gap-4 px-[4rem] mx-auto">
+                <div class="">
+                    <h3 class="text-[3rem] font-bold pb-4">
+                        Bring Everyone together to build better products.
+                    </h3>
+                    <p class="font-normal text-[1.5rem] xl:w-[30rem] max-w-full text-[#abacb4] pb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta explicabo voluptatum quae Lorem ipsum dolor sit amet.
+                    </p>
+                    <div class="btn w-[10rem]">
+                        <a href="#" class="">Get Started</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../images/illustration-intro.svg" alt="" class="max-w-full">
+                </div>
+            </section>
+            <!-- end of bring every one section -->
+        </main>
+        <!-- end of main -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
