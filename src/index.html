@@ -11,15 +11,15 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
 </head>
-<body>
-    <div class="container bg-[#ffffff] mx-auto py-6 px-2 md:px-8">
+<body class="">
+    <div class="bg-[#ffffff] mx-auto">
         <!-- header -->
-        <header class="fixed top-0 left-0 z-50 w-full transition-all duration-200">
+        <header class="fixed top-0 left-0 z-50 w-full transition-all duration-200 px-8">
             <div id="header" class="flex justify-between items-center flex-col xl:flex-row font-semibold text-[1.3rem] py-[2rem] px-1 md:px-[4rem] gap-6">
                 <div class="imglogo">
                     <img src="../images/logo.svg" alt="" srcset="">
                 </div>
-                <ul class="flex gap-5">
+                <ul class="gap-5 flex" id="nav-header">
                     <li class="hover:text-[#b9babe]">
                         <a href="#" class="">Pricing</a>
                     </li>
@@ -36,9 +36,12 @@
                         <a href="#">Community</a>
                     </li>
                 </ul>
-                <div class="btn w-[14rem]">
+                <div class="btn w-[14rem]" id="btn-header">
                     <a href="#" class="">Get Started</a>
                 </div>
+                <!-- <div class="xl:hidden hover:cursor-pointer">
+                    <img src="../images/icon-hamburger.svg" id="btn-close" srcset="">
+                </div> -->
             </div>
         </header>
         <!-- end of header section -->
@@ -46,12 +49,12 @@
         <!-- main body -->
         <main class="pt-[13rem]">
             <!-- bring every one section -->
-            <section class="grid grid-cols-1 xl:grid-cols-2 items-center justify-between gap-4 px-[4rem] mx-auto">
+            <section class="grid grid-cols-1 xl:grid-cols-2 items-center justify-between gap-4 px-[4rem] xl:pl-[12rem] mx-auto pb-[5rem]">
                 <div class="">
-                    <h3 class="text-[3rem] font-bold pb-4">
+                    <h2 class="text-[3rem] font-bold pb-4">
                         Bring Everyone together to build better products.
-                    </h3>
-                    <p class="font-normal text-[1.5rem] xl:w-[30rem] max-w-full text-[#abacb4] pb-4">
+                    </h2>
+                    <p class="paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta explicabo voluptatum quae Lorem ipsum dolor sit amet.
                     </p>
                     <div class="btn w-[10rem]">
@@ -63,8 +66,181 @@
                 </div>
             </section>
             <!-- end of bring every one section -->
+
+            <!-- what's difference -->
+            <section>
+                <div class="gridStyle items-baseline pb-[5rem] px-[4rem] xl:pl-[12rem] ">
+                    <div>
+                        <h2 class="text-[3rem] font-bold pb-4">What's deifferent about manage?</h2>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sunt nam dolorem sint doloremque quia architecto repellat ratione accusantium nulla.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="flexStyle">
+                            <div class="btnNumber">
+                                <a href="#" class="">01</a>
+                            </div>
+                            <div class="">
+                                <h3 class="text-[1.5rem] font-bold pb-4">
+                                    Track Company-wide prgress
+                                </h3>
+                                <p class="paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos consectetur officiis, reprehenderit voluptas repellendus esse excepturi aliquid tempore a.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end of track div -->
+
+                        <!-- advanced build -->
+                        <div class="flexStyle">
+                            <div class="btnNumber">
+                                <a href="#" class="">02</a>
+                            </div>
+                            <div class="">
+                                <h3 class="text-[1.5rem] font-bold pb-4">
+                                    Advanced built-in reports
+                                </h3>
+                                <p class="paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos consectetur officiis, reprehenderit voluptas repellendus esse excepturi aliquid tempore a.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end of built div -->
+
+                        <!-- everything  -->
+                        <div class="flexStyle">
+                            <div class="btnNumber">
+                                <a href="#" class="">03</a>
+                            </div>
+                            <div class="">
+                                <h3 class="text-[1.5rem] font-bold pb-4">
+                                    Everything you need in one place
+                                </h3>
+                                <p class="paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos consectetur officiis, reprehenderit voluptas repellendus esse excepturi aliquid tempore a.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of what's diffrence section -->
+
+            <!-- what they have said -->
+            <section>
+                <div class="flex flex-col items-center pb-8">
+                    <h1 class="text-[3rem] font-bold pb-[5rem]">
+                        What they've said
+                    </h1>
+                    <div class="grid grid-cols-1 xl:grid-cols-3 gap-8 pb-8">
+                        <!-- anisha Li -->
+                        <div class="commentDiv">
+                            <img src="../images/avatar-anisha.png" alt="" class="commentImg">
+                            <h3 class="text-[1.5rem] font-bold pb-4">
+                                Anisha Li
+                            </h3>
+                            <p class="paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam architecto consectetur repudiandae facilis fugiat tempora!
+                            </p>
+                        </div>
+                        <!-- end of anishi div -->
+                        <!-- Ali Bravo -->
+                        <div class="commentDiv">
+                            <img src="../images/avatar-ali.png" alt="" class="commentImg">
+                            <h3 class="text-[1.5rem] font-bold pb-4">
+                                Ali Bravo
+                            </h3>
+                            <p class="paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam architecto consectetur repudiandae facilis fugiat tempora!
+                            </p>
+                        </div>
+                        <!-- end of Ali Bravo div -->
+                        <!-- Richard Watts -->
+                        <div class="commentDiv">
+                            <img src="../images/avatar-richard.png" alt="" class="commentImg">
+                            <h3 class="text-[1.5rem] font-bold pb-4">
+                                Richard Watts
+                            </h3>
+                            <p class="paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam architecto consectetur repudiandae facilis fugiat tempora!
+                            </p>
+                        </div>
+                        <!-- end of Richard Watts div -->
+                    </div>
+                    <div class="btn w-[15rem]">
+                        <a href="#" class="">Get Started</a>
+                    </div>
+                </div>
+            </section>
+            <!-- end of what said section -->
+            <!-- simplify -->
+            <section class="">
+                <div class="bg-[#f3613c] flex flex-col xl:flex-row justify-between items-center p-[5rem]">
+                    <h1 class="text-[3rem] font-semibold text-white xl:w-[50rem]">
+                        Simplify how your team works today.
+                    </h1>
+                    
+                    <div class="btn rounded-[5rem] w-[15rem] h-[5rem] bg-[#ffffff] text-[#f3613c]">
+                        <a href="#" class="">Get Started</a>
+                    </div>
+                </div>
+            </section>
+            <!-- end of simp;ify div -->
         </main>
         <!-- end of main -->
+
+        <footer class="bg-[#1e1e26] text-white p-8 flex flex-col xl:flex-row justify-between items-baseline gap-8 text-[1.5rem]">
+            <div class="flex flex-col items-stretch justify-between gap-4">
+                <img src="../images/logo.svg" alt="" srcset="">
+                <ul class="flex flex-row gap-4">
+                    <li>
+                        <img src="../images/icon-facebook.svg" alt="" class="w-[2rem]">
+                    </li>
+                    <li>
+                        <img src="../images/icon-youtube.svg" alt="" class="w-[2rem]">
+                    </li>
+                    <li>
+                        <img src="../images/icon-twitter.svg" alt="" class="w-[2rem]">
+                    </li>
+                    <li>
+                        <img src="../images/icon-pinterest.svg" alt="" class="w-[2rem]">
+                    </li>
+                    <li>
+                        <img src="../images/icon-instagram.svg" alt="" class="w-[2rem]">
+                    </li>
+                </ul>
+            </div>
+            <ul class="flex flex-col gap-4">
+                <li class="link-hover">
+                    <a href="#">Home</a>
+                </li>
+                <li class="link-hover">
+                    <a href="#">Pricing</a>
+                </li>
+                <li class="link-hover">
+                    <a href="#">Products</a>
+                </li>
+                <li class="link-hover">
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+            <ul class="flex flex-col gap-4">
+                <li class="link-hover">
+                    <a href="#">Careers</a>
+                </li>
+                <li class="link-hover">
+                    <a href="#">Community</a>
+                </li>
+                <li class="link-hover">
+                    <a href="#">Pravicy Polciy</a>
+                </li>
+            </ul>
+            <form action="" class="flex flex-row gap-4 items-start">
+                <input type="email" name="" id="" class="rounded-[5rem] p-4 outline-none text-[#f3613c]" placeholder="email@example.com">
+                <input type="submit" value="Go" class="bg-[#f3613c] p-4 hover:bg-[#f89172] w-[10rem] rounded-[3rem]">
+            </form>
+        </footer>
     </div>
 
     <script src="script.js"></script>

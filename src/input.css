@@ -11,6 +11,27 @@ body{
 
 @layer{
     .btn{
-        @apply flex items-center justify-center bg-[#f98f75] text-white py-4 rounded-[2rem] hover:cursor-pointer
+        @apply flex items-center justify-center bg-[#f3613c] hover:bg-[#f98f75] text-white py-4 rounded-[2rem] hover:cursor-pointer
+    }
+    .paragraph{
+        @apply font-normal text-[1.3rem] xl:w-[30rem] max-w-full text-[#abacb4] pb-4
+    }
+    .gridStyle{
+        @apply grid grid-cols-1 xl:grid-cols-2 justify-between gap-4 px-[4rem] mx-auto
+    }
+    .btnNumber{
+        @apply btn w-[15rem] xl:w-[5rem] font-semibold
+    }
+    .flexStyle{
+        @apply flex flex-row items-start gap-8
+    }
+    .commentDiv{
+        @apply bg-[#fafafa] rounded-sm text-center pt-[5rem] pb-4 px-8 relative
+    }
+    .commentImg{
+        @apply w-[5rem] absolute left-[45%] xl:left-[42%] top-[-2rem]
+    }
+    .link-hover{
+        @apply hover:text-[#f3613c]
     }
 }

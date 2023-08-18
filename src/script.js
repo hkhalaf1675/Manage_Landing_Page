@@ -10,3 +10,10 @@ window.addEventListener("scroll",() => {
         header.style.padding = "2rem 4rem";
     }
 })
+
+// let btnclose = document.getElementById("btn-close");
+// let navheader = document.getElementById("nav-header");
+
+// btnclose.addEventListener("click",() => {
+//     navheader.style.display = "flex";
+// })
